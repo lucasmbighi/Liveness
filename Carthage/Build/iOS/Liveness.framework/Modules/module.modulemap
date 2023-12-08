@@ -1,0 +1,4 @@
+framework module Liveness {
+  header "Liveness-Swift.h"
+  requires objc
+}

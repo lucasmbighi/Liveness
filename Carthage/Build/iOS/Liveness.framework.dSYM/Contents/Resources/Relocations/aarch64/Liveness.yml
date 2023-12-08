@@ -1,0 +1,46 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/lucasbighi/Documents/Prodesp/Liveness/Carthage/Build/iOS/Liveness.framework/Liveness'
+relocations:
+  - { offsetInCU: 0x33, offset: 0x251F7, size: 0x8, addend: 0x0, symName: _LivenessVersionString, symObjAddr: 0x0, symBinAddr: 0xE1BE20, symSize: 0x0 }
+  - { offsetInCU: 0x67, offset: 0x2522B, size: 0x8, addend: 0x0, symName: _LivenessVersionNumber, symObjAddr: 0x30, symBinAddr: 0xE1BE50, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x25267, size: 0x8, addend: 0x0, symName: '+[GULCCComponent componentWithProtocol:creationBlock:]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0x80 }
+  - { offsetInCU: 0x1CC, offset: 0x2540C, size: 0x8, addend: 0x0, symName: '+[GULCCComponent componentWithProtocol:creationBlock:]', symObjAddr: 0x0, symBinAddr: 0x8000, symSize: 0x80 }
+  - { offsetInCU: 0x21A, offset: 0x2545A, size: 0x8, addend: 0x0, symName: '+[GULCCComponent componentWithProtocol:instantiationTiming:dependencies:creationBlock:]', symObjAddr: 0x80, symBinAddr: 0x8080, symSize: 0x9C }
+  - { offsetInCU: 0x286, offset: 0x254C6, size: 0x8, addend: 0x0, symName: '-[GULCCComponent initWithProtocol:instantiationTiming:dependencies:creationBlock:]', symObjAddr: 0x11C, symBinAddr: 0x811C, symSize: 0xE8 }
+  - { offsetInCU: 0x2F6, offset: 0x25536, size: 0x8, addend: 0x0, symName: '-[GULCCComponent protocol]', symObjAddr: 0x204, symBinAddr: 0x8204, symSize: 0x8 }
+  - { offsetInCU: 0x32A, offset: 0x2556A, size: 0x8, addend: 0x0, symName: '-[GULCCComponent instantiationTiming]', symObjAddr: 0x20C, symBinAddr: 0x820C, symSize: 0x8 }
+  - { offsetInCU: 0x35E, offset: 0x2559E, size: 0x8, addend: 0x0, symName: '-[GULCCComponent dependencies]', symObjAddr: 0x214, symBinAddr: 0x8214, symSize: 0x8 }
+  - { offsetInCU: 0x392, offset: 0x255D2, size: 0x8, addend: 0x0, symName: '-[GULCCComponent creationBlock]', symObjAddr: 0x21C, symBinAddr: 0x821C, symSize: 0x8 }
+  - { offsetInCU: 0x3C6, offset: 0x25606, size: 0x8, addend: 0x0, symName: '-[GULCCComponent .cxx_destruct]', symObjAddr: 0x224, symBinAddr: 0x8224, symSize: 0x3C }
+  - { offsetInCU: 0x27, offset: 0x25691, size: 0x8, addend: 0x0, symName: '+[GULCCComponentContainer registerAsComponentRegistrant:]', symObjAddr: 0x0, symBinAddr: 0x8260, symSize: 0x58 }
+  - { offsetInCU: 0x65, offset: 0x256CF, size: 0x8, addend: 0x0, symName: '+[GULCCComponentContainer registerAsComponentRegistrant:]', symObjAddr: 0x0, symBinAddr: 0x8260, symSize: 0x58 }
+  - { offsetInCU: 0x8A, offset: 0x256F4, size: 0x8, addend: 0x0, symName: '_registerAsComponentRegistrant:.onceToken', symObjAddr: 0x5028, symBinAddr: 0x114C340, symSize: 0x0 }
+  - { offsetInCU: 0x109, offset: 0x25773, size: 0x8, addend: 0x0, symName: _sGULComponentRegistrants, symObjAddr: 0x5030, symBinAddr: 0x114C348, symSize: 0x0 }
+  - { offsetInCU: 0x28F, offset: 0x258F9, size: 0x8, addend: 0x0, symName: '___57+[GULCCComponentContainer registerAsComponentRegistrant:]_block_invoke', symObjAddr: 0x58, symBinAddr: 0x82B8, symSize: 0x30 }
+  - { offsetInCU: 0x2B4, offset: 0x2591E, size: 0x8, addend: 0x0, symName: '+[GULCCComponentContainer registerAsComponentRegistrant:inSet:]', symObjAddr: 0x88, symBinAddr: 0x82E8, symSize: 0x8 }
+  - { offsetInCU: 0x2FC, offset: 0x25966, size: 0x8, addend: 0x0, symName: '-[GULCCComponentContainer initWithContext:]', symObjAddr: 0x90, symBinAddr: 0x82F0, symSize: 0xC }
+  - { offsetInCU: 0x33D, offset: 0x259A7, size: 0x8, addend: 0x0, symName: '-[GULCCComponentContainer initWithContext:registrants:]', symObjAddr: 0x9C, symBinAddr: 0x82FC, symSize: 0xE0 }
+  - { offsetInCU: 0x38F, offset: 0x259F9, size: 0x8, addend: 0x0, symName: '-[GULCCComponentContainer populateComponentsFromRegisteredClasses:withContext:]', symObjAddr: 0x17C, symBinAddr: 0x83DC, symSize: 0x318 }
+  - { offsetInCU: 0x481, offset: 0x25AEB, size: 0x8, addend: 0x0, symName: '-[GULCCComponentContainer instantiateEagerComponents]', symObjAddr: 0x494, symBinAddr: 0x86F4, symSize: 0x150 }
+  - { offsetInCU: 0x4D8, offset: 0x25B42, size: 0x8, addend: 0x0, symName: '-[GULCCComponentContainer instantiateInstanceForProtocol:withBlock:]', symObjAddr: 0x5E4, symBinAddr: 0x8844, symSize: 0x104 }
+  - { offsetInCU: 0x59E, offset: 0x25C08, size: 0x8, addend: 0x0, symName: '-[GULCCComponentContainer instanceForProtocol:]', symObjAddr: 0x6E8, symBinAddr: 0x8948, symSize: 0x11C }
+  - { offsetInCU: 0x629, offset: 0x25C93, size: 0x8, addend: 0x0, symName: '-[GULCCComponentContainer removeAllCachedInstances]', symObjAddr: 0x804, symBinAddr: 0x8A64, symSize: 0x1B0 }
+  - { offsetInCU: 0x66E, offset: 0x25CD8, size: 0x8, addend: 0x0, symName: '-[GULCCComponentContainer context]', symObjAddr: 0x9B4, symBinAddr: 0x8C14, symSize: 0x18 }
+  - { offsetInCU: 0x6A3, offset: 0x25D0D, size: 0x8, addend: 0x0, symName: '-[GULCCComponentContainer components]', symObjAddr: 0x9CC, symBinAddr: 0x8C2C, symSize: 0x8 }
+  - { offsetInCU: 0x6D7, offset: 0x25D41, size: 0x8, addend: 0x0, symName: '-[GULCCComponentContainer setComponents:]', symObjAddr: 0x9D4, symBinAddr: 0x8C34, symSize: 0xC }
+  - { offsetInCU: 0x716, offset: 0x25D80, size: 0x8, addend: 0x0, symName: '-[GULCCComponentContainer cachedInstances]', symObjAddr: 0x9E0, symBinAddr: 0x8C40, symSize: 0x8 }
+  - { offsetInCU: 0x74A, offset: 0x25DB4, size: 0x8, addend: 0x0, symName: '-[GULCCComponentContainer setCachedInstances:]', symObjAddr: 0x9E8, symBinAddr: 0x8C48, symSize: 0xC }
+  - { offsetInCU: 0x789, offset: 0x25DF3, size: 0x8, addend: 0x0, symName: '-[GULCCComponentContainer eagerProtocolsToInstantiate]', symObjAddr: 0x9F4, symBinAddr: 0x8C54, symSize: 0x8 }
+  - { offsetInCU: 0x7BD, offset: 0x25E27, size: 0x8, addend: 0x0, symName: '-[GULCCComponentContainer setEagerProtocolsToInstantiate:]', symObjAddr: 0x9FC, symBinAddr: 0x8C5C, symSize: 0xC }
+  - { offsetInCU: 0x7FC, offset: 0x25E66, size: 0x8, addend: 0x0, symName: '-[GULCCComponentContainer .cxx_destruct]', symObjAddr: 0xA08, symBinAddr: 0x8C68, symSize: 0x44 }
+  - { offsetInCU: 0x27, offset: 0x2604E, size: 0x8, addend: 0x0, symName: '+[GULCCComponentType instanceForProtocol:inContainer:]', symObjAddr: 0x0, symBinAddr: 0x8CAC, symSize: 0x8 }
+  - { offsetInCU: 0x89, offset: 0x260B0, size: 0x8, addend: 0x0, symName: '+[GULCCComponentType instanceForProtocol:inContainer:]', symObjAddr: 0x0, symBinAddr: 0x8CAC, symSize: 0x8 }
+  - { offsetInCU: 0x27, offset: 0x2619A, size: 0x8, addend: 0x0, symName: '+[GULCCDependency dependencyWithProtocol:]', symObjAddr: 0x0, symBinAddr: 0x8CB4, symSize: 0x4C }
+  - { offsetInCU: 0x90, offset: 0x26203, size: 0x8, addend: 0x0, symName: '+[GULCCDependency dependencyWithProtocol:]', symObjAddr: 0x0, symBinAddr: 0x8CB4, symSize: 0x4C }
+  - { offsetInCU: 0xD3, offset: 0x26246, size: 0x8, addend: 0x0, symName: '+[GULCCDependency dependencyWithProtocol:isRequired:]', symObjAddr: 0x4C, symBinAddr: 0x8D00, symSize: 0x58 }
+  - { offsetInCU: 0x126, offset: 0x26299, size: 0x8, addend: 0x0, symName: '-[GULCCDependency initWithProtocol:isRequired:]', symObjAddr: 0xA4, symBinAddr: 0x8D58, symSize: 0x80 }
+  - { offsetInCU: 0x179, offset: 0x262EC, size: 0x8, addend: 0x0, symName: '-[GULCCDependency protocol]', symObjAddr: 0x124, symBinAddr: 0x8DD8, symSize: 0x8 }
+  - { offsetInCU: 0x1AD, offset: 0x26320, size: 0x8, addend: 0x0, symName: '-[GULCCDependency isRequired]', symObjAddr: 0x12C, symBinAddr: 0x8DE0, symSize: 0x8 }
+  - { offsetInCU: 0x1E2, offset: 0x26355, size: 0x8, addend: 0x0, symName: '-[GULCCDependency .cxx_destruct]', symObjAddr: 0x134, symBinAddr: 0x8DE8, symSize: 0xC }
+...

@@ -1,0 +1,6 @@
+framework module Pods_Liveness {
+  umbrella header "Pods-Liveness-umbrella.h"
+
+  export *
+  module * { export * }
+}

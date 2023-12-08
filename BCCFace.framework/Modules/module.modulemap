@@ -1,0 +1,11 @@
+framework module BCCFace {
+  umbrella header "BCCFace.h"
+  export *
+
+  module * { export * }
+}
+
+module BCCFace.Swift {
+  header "BCCFace-Swift.h"
+  requires objc
+}

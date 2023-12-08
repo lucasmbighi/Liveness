@@ -7,12 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52DD58E22B2276FA00C119EC /* Liveness.h in Headers */ = {isa = PBXBuildFile; fileRef = 52DD58E12B2276FA00C119EC /* Liveness.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52DD58EA2B2277B700C119EC /* Liveness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DD58E92B2277B700C119EC /* Liveness.swift */; };
+		52DD58ED2B2277DE00C119EC /* BCCFace.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DD58EB2B2277D600C119EC /* BCCFace.framework */; platformFilter = ios; };
+		52DD58EE2B2277DE00C119EC /* BCCFace.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 52DD58EB2B2277D600C119EC /* BCCFace.framework */; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		52DD5D6F2B239BE300C119EC /* Pods_Liveness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 813E8B9C2C1EF3E593549368 /* Pods_Liveness.framework */; };
+		52DD5DA02B23A3AE00C119EC /* LivenessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DD5D9F2B23A3AE00C119EC /* LivenessView.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		52DD58EF2B2277DE00C119EC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				52DD58EE2B2277DE00C119EC /* BCCFace.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		19F6235F4947F44A5C903BE0 /* Pods-Liveness.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Liveness.debug.xcconfig"; path = "Target Support Files/Pods-Liveness/Pods-Liveness.debug.xcconfig"; sourceTree = "<group>"; };
 		52DD58DE2B2276FA00C119EC /* Liveness.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Liveness.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		52DD58E12B2276FA00C119EC /* Liveness.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Liveness.h; sourceTree = "<group>"; };
+		52DD58E92B2277B700C119EC /* Liveness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Liveness.swift; sourceTree = "<group>"; };
+		52DD58EB2B2277D600C119EC /* BCCFace.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BCCFace.framework; sourceTree = "<group>"; };
+		52DD5D772B23A2D200C119EC /* ExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleApp.swift; sourceTree = "<group>"; };
+		52DD5D792B23A2D200C119EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52DD5D7B2B23A2D400C119EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52DD5D7E2B23A2D400C119EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52DD5D882B23A2D500C119EC /* ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTests.swift; sourceTree = "<group>"; };
+		52DD5D922B23A2D500C119EC /* ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITests.swift; sourceTree = "<group>"; };
+		52DD5D942B23A2D500C119EC /* ExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52DD5D9F2B23A3AE00C119EC /* LivenessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivenessView.swift; sourceTree = "<group>"; };
+		52DD5DA62B23A76D00C119EC /* GoogleMVFaceDetectorResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = GoogleMVFaceDetectorResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		57A161184F239E03E89CC36E /* Pods-Liveness.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Liveness.release.xcconfig"; path = "Target Support Files/Pods-Liveness/Pods-Liveness.release.xcconfig"; sourceTree = "<group>"; };
+		813E8B9C2C1EF3E593549368 /* Pods_Liveness.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Liveness.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -20,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52DD58ED2B2277DE00C119EC /* BCCFace.framework in Frameworks */,
+				52DD5D6F2B239BE300C119EC /* Pods_Liveness.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -30,7 +63,12 @@
 			isa = PBXGroup;
 			children = (
 				52DD58E02B2276FA00C119EC /* Liveness */,
+				52DD5D762B23A2D200C119EC /* Example */,
+				52DD5D872B23A2D500C119EC /* ExampleTests */,
+				52DD5D912B23A2D500C119EC /* ExampleUITests */,
 				52DD58DF2B2276FA00C119EC /* Products */,
+				F1626E1301FD798144A93878 /* Pods */,
+				861C033C5D62C9EBDE33515B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -45,9 +83,65 @@
 		52DD58E02B2276FA00C119EC /* Liveness */ = {
 			isa = PBXGroup;
 			children = (
-				52DD58E12B2276FA00C119EC /* Liveness.h */,
+				52DD58E92B2277B700C119EC /* Liveness.swift */,
+				52DD5D9F2B23A3AE00C119EC /* LivenessView.swift */,
 			);
 			path = Liveness;
+			sourceTree = "<group>";
+		};
+		52DD5D762B23A2D200C119EC /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				52DD5D772B23A2D200C119EC /* ExampleApp.swift */,
+				52DD5D792B23A2D200C119EC /* ContentView.swift */,
+				52DD5D7B2B23A2D400C119EC /* Assets.xcassets */,
+				52DD5D7D2B23A2D400C119EC /* Preview Content */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		52DD5D7D2B23A2D400C119EC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				52DD5D7E2B23A2D400C119EC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52DD5D872B23A2D500C119EC /* ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				52DD5D882B23A2D500C119EC /* ExampleTests.swift */,
+			);
+			path = ExampleTests;
+			sourceTree = "<group>";
+		};
+		52DD5D912B23A2D500C119EC /* ExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52DD5D922B23A2D500C119EC /* ExampleUITests.swift */,
+				52DD5D942B23A2D500C119EC /* ExampleUITestsLaunchTests.swift */,
+			);
+			path = ExampleUITests;
+			sourceTree = "<group>";
+		};
+		861C033C5D62C9EBDE33515B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52DD5DA62B23A76D00C119EC /* GoogleMVFaceDetectorResources.bundle */,
+				52DD58EB2B2277D600C119EC /* BCCFace.framework */,
+				813E8B9C2C1EF3E593549368 /* Pods_Liveness.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1626E1301FD798144A93878 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19F6235F4947F44A5C903BE0 /* Pods-Liveness.debug.xcconfig */,
+				57A161184F239E03E89CC36E /* Pods-Liveness.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -57,7 +151,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52DD58E22B2276FA00C119EC /* Liveness.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,10 +161,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52DD58E52B2276FA00C119EC /* Build configuration list for PBXNativeTarget "Liveness" */;
 			buildPhases = (
+				0E5CB80F06A71E5485A0A5B6 /* [CP] Check Pods Manifest.lock */,
 				52DD58D92B2276FA00C119EC /* Headers */,
 				52DD58DA2B2276FA00C119EC /* Sources */,
 				52DD58DB2B2276FA00C119EC /* Frameworks */,
 				52DD58DC2B2276FA00C119EC /* Resources */,
+				52DD58EF2B2277DE00C119EC /* Embed Frameworks */,
+				928D511E97C7720F6A2C0300 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -89,10 +185,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					52DD58DD2B2276FA00C119EC = {
 						CreatedOnToolsVersion = 15.0.1;
+						LastSwiftMigration = 1500;
 					};
 				};
 			};
@@ -124,11 +222,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E5CB80F06A71E5485A0A5B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Liveness-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		928D511E97C7720F6A2C0300 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Liveness/Pods-Liveness-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Liveness/Pods-Liveness-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Liveness/Pods-Liveness-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		52DD58DA2B2276FA00C119EC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52DD58EA2B2277B700C119EC /* Liveness.swift in Sources */,
+				52DD5DA02B23A3AE00C119EC /* LivenessView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +404,9 @@
 		};
 		52DD58E62B2276FA00C119EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19F6235F4947F44A5C903BE0 /* Pods-Liveness.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -271,9 +415,19 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Pods/MLKitCommon/Frameworks",
+					"$(PROJECT_DIR)/Pods/MLKitFaceDetection/Frameworks",
+					"$(PROJECT_DIR)/Pods/MLKitVision/Frameworks",
+					"$(PROJECT_DIR)/Pods/MLImage/Frameworks",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -285,15 +439,21 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.prodesp.Liveness;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		52DD58E72B2276FA00C119EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57A161184F239E03E89CC36E /* Pods-Liveness.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -302,9 +462,19 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Pods/MLKitCommon/Frameworks",
+					"$(PROJECT_DIR)/Pods/MLKitFaceDetection/Frameworks",
+					"$(PROJECT_DIR)/Pods/MLKitVision/Frameworks",
+					"$(PROJECT_DIR)/Pods/MLImage/Frameworks",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,9 +486,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.prodesp.Liveness;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
