@@ -1,0 +1,20 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "13b5c7d44776a3af2257dafb9f93dff1c5b145e2",
+  "iOS" : [
+    {
+      "hash" : "9e4aec207a102586a5c93b050d55a51b6a78d2ebb987941445afe52dae93b0e8",
+      "name" : "Liveness",
+      "linking" : "dynamic",
+      "swiftToolchainVersion" : "5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
+    }
+  ]
+}
